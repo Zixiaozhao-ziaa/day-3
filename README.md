@@ -10,12 +10,13 @@
 ## install dependencies
 1. create requirements.txt file
 >touch requirements.txt
-2. add to requirements.txtx
+2. add to requirements.txt
 >openai
 >streamlit
 >python_dotenv
 >chromadb
 >pypdf
+>tiktoken
 3. install requirements.txt (and freeze them so you can rely on them [NEXT STEP]) (**)
 >pip install -r requirements.txt
 4. and freeze the versions (do this everytime you add a new library / package to requirements.txt)
